@@ -17,7 +17,7 @@ let when = [
 ];
 
 function getRandomNumber(a, b) {
-  return Math.floor(Math.random() + (b - a) + a);
+  return Math.floor(Math.random() * (b - a) + a);
 }
 
 function getRandom(anyArray) {
